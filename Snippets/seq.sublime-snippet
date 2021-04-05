@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+sequence {
+	$1
+} catch ${2:Http}.Error => error {
+	$3
+}
+	]]></content>
+	<tabTrigger>seq</tabTrigger>
+	<description>sequence expressions allows you to do things in sequence. It's built from multiple parts: expressions or statements that return a Promise or a Result, catch branches, and an optional finally branch.</description>
+	<scope>source.mint</scope>
+</snippet>

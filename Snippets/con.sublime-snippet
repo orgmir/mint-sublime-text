@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+connect ${1:StoreName}.Store exposing { $0 }
+	]]></content>
+	<tabTrigger>con</tabTrigger>
+	<description>The connect directive lets you connect a component to a store which allows you to call the stores functions and properties without using the stores name.</description>
+	<scope>source.mint</scope>
+</snippet>

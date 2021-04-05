@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+store ${1:StoreName}.Store {
+	$0
+}
+	]]></content>
+	<tabTrigger>store</tabTrigger>
+	<description>Stores are global containers of application specific data.</description>
+	<scope>source.mint</scope>
+</snippet>

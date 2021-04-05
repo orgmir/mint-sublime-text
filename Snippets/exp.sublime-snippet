@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<{ "${0:Message}" }>]]></content>
+	<tabTrigger>exp</tabTrigger>
+	<description>HTML Expressions allows inserting data into HTML elements or components.</description>
+	<scope>source.mint</scope>
+</snippet>

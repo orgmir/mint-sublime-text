@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+record ${1:User} {
+	${2:name} : ${3: String},
+	${4:email}: ${5: String}
+}
+	]]></content>
+	<tabTrigger>record</tabTrigger>
+	<description>Records are object like data structures, that have a fix set of keys and values.</description>
+	<scope>source.mint</scope>
+</snippet>

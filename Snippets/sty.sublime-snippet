@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+style ${1:base} {
+	${2:attribute}: ${3:value};
+}
+	]]></content>
+	<tabTrigger>sty</tabTrigger>
+	<description>Styles define with CSS how an HTML element looks.</description>
+	<scope>source.mint</scope>
+</snippet>

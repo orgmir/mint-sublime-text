@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+case (${1:condition}) {,
+    ${2:match1} => ${3:value1}
+    ${4:match3} => ${5:value3}
+    => ${6:defaultValue}
+}
+	]]></content>
+	<tabTrigger>case</tabTrigger>
+	<description>A case expression is useful for matching enums or exact values, while also supporting a default value.</description>
+	<scope>source.mint</scope>
+</snippet>

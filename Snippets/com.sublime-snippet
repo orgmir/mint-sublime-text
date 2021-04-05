@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+component ${1:ComponentName} {
+	$0
+}
+	]]></content>
+	<tabTrigger>com</tabTrigger>
+	<description>Components are reusable pieces of code that have specific behavior, styles and content.</description>
+	<scope>source.mint</scope>
+</snippet>

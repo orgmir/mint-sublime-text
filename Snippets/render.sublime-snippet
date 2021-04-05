@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+fun render : Html {
+	$0
+}
+	]]></content>
+	<tabTrigger>render</tabTrigger>
+	<description>The render function renders the component into an HTML tree.</description>
+	<scope>source.mint</scope>
+</snippet>

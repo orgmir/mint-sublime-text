@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+next { state | ${1:name} = ${1:name} + 1 }
+	]]></content>
+	<tabTrigger>next</tabTrigger>
+	<description>Next allows you to locally modify the state variables in Components and Stores.</description>
+	<scope>source.mint</scope>
+</snippet>

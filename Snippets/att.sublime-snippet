@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[{${0:disabled}}]]></content>
+	<tabTrigger>att</tabTrigger>
+	<description>Attributes are either strings or expressions.</description>
+	<scope>source.mint</scope>
+</snippet>

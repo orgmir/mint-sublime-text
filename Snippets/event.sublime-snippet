@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:onEvent}={ (event : Html.Event) : ${2:String} { ${0:handler}() } }
+	]]></content>
+	<tabTrigger>event</tabTrigger>
+	<description>All event handlers are functions, they take an event record and return Void.</description>
+	<scope>source.mint</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+fun ${1:name}(${2:object} : ${3:String}) : ${4:Void} {
+	$0
+}
+	]]></content>
+	<tabTrigger>fun</tabTrigger>
+	<description>Functions can be defined on modules, components, stores and providers.</description>
+	<scope>source.mint</scope>
+</snippet>

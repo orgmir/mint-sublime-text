@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+routes {
+	/ {
+		${1:Application.setPage("index")}
+	}
+	/${2:user}/:${3:id} {
+		sequence {
+			${4:Application.setPage("show")}
+			${5:Application.loadUser(id)}		
+		}
+	}
+}
+	]]></content>
+	<tabTrigger>routes</tabTrigger>
+	<description>In Mint routes of an application are defined at the top level with the routes block.</description>
+	<scope>source.mint</scope>
+</snippet>

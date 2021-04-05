@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+try {
+	$1
+} catch ${2:Json}.Error => error {
+	$3
+}
+	]]></content>
+	<tabTrigger>try</tabTrigger>
+	<description>try is a control expression for handling synchronous computations that might fail, for example when you are trying to convert an untyped JavaScript object into a typed Record.</description>
+	<scope>source.mint</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+get ${1:computedProperty} : ${2:String} {
+	$0
+}
+	]]></content>
+	<tabTrigger>get</tabTrigger>
+	<description>Computed properties works like regular properties but instead of returning a constant value it can return different values base on the state and the properties.</description>
+	<scope>source.mint</scope>
+</snippet>

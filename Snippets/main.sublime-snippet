@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+component Main {
+	fun render: Html {
+		<$0/>
+	}
+}
+	]]></content>
+	<tabTrigger>main</tabTrigger>
+	<description>The component named Main is the one that get's rendered on the screen.</description>
+	<scope>source.mint</scope>
+</snippet>
